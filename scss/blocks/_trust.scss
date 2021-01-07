@@ -1,0 +1,62 @@
+.trust {
+	padding-top: 100px;
+	padding-bottom: 100px;
+    background-color: #F5F8FB;
+    &__title {
+        font-size: 36px;
+        color: #112950;
+        font-weight: 400;
+        letter-spacing: 0.62px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 63px;
+        &__item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            &__img__content {
+                margin-left: 33px;
+                &__title {
+                    font-size: 23px;
+                    color: #112950;
+                    letter-spacing: 0.31px;
+                    font-weight: 400;
+                }
+                &__text {
+                    font-size: 17px;
+                    font-family: 'Inter', sans-serif;
+                    color: #324B72;
+                    letter-spacing: 0.15px;
+                    font-weight: 400;
+                    line-height: 1.7em;
+                    max-width: 338px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+    &__companies-title {
+        font-family: 'Inter', sans-serif;
+	    margin-top: 120px;
+	    font-size: 14px;
+	    color: #7B8BA5;
+	    font-weight: 400;
+	    text-transform: uppercase;
+    }
+    &__sponsor {
+        margin-top: 60px;
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+        grid-gap: 25px;
+        &__item {
+            margin-bottom: 20px;
+            &:hover {
+                opacity: 0.6;
+                transition: all 0.3s;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+body {
+	font-family: 'Inter', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+// Blocks
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/help';
+@import 'blocks/using';
+@import 'blocks/trust';
+@import 'blocks/languages';
+@import 'blocks/share';
+@import 'blocks/footer';
+
+// Adaptive
+
+@import 'adaptive/1199px';
+@import 'adaptive/991px';
+@import 'adaptive/767px';
+@import 'adaptive/575px';

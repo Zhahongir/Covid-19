@@ -1,0 +1,31 @@
+@media screen and (max-width: 1199px) {
+  .container {
+      width: 960px;
+  }
+
+  .promo__img {
+    display: none;
+  }
+
+  .promo__wrap {
+    padding-left: 20px;
+  }
+
+  .promo__wrap__phone-img {
+    right: 100px; 
+  }
+
+  .help__wrap__inner {
+    grid-gap: 40px;
+  }
+
+  .using__inner__cards {
+    grid-gap: 35px;
+  }
+
+  .using__inner__cards__item {
+    max-width: 460px;
+  }
+}
+
+

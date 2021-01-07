@@ -1,0 +1,36 @@
+.share {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #F5F8FB;
+	text-align: center;
+    border-bottom: 1px solid #E0E6ED;
+    &__title {
+        font-size: 36px;
+        color: #112950;
+        font-weight: 400;
+        letter-spacing: 0.62px;
+    }
+    &__text {
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0.15px;
+        line-height: 2rem;
+        color: #324B72;
+        margin-top: 30px;
+    }
+    &__btn {
+        font-family: 'Inter', sans-serif;
+        border: 1px solid #2E85FF;
+        color: #2174EA;
+        background-color: #F5F8FB;
+        font-size: 15px;
+        letter-spacing: 0.15px;
+        margin-top: 40px;
+        &:hover {
+            background-color: #2E85FF;
+            color: #fff;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}

@@ -1,0 +1,139 @@
+@media screen and (max-width: 575px) {
+    .container {
+        width: 90%;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow: hidden;
+    }
+
+    .header__wrap__nav {
+        display: none;
+    }
+
+    .promo__wrap {
+        text-align: center;
+        &__title {
+            width: auto;
+        }
+        &__text {
+            width: auto;
+        }
+    }
+
+    .promo__wrap__phone-img {
+        display: none;
+    }
+
+    .hamburger span{
+        display: block;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .using__inner__cards__item {
+        max-width: 290px;
+        &__top {
+            padding-left: 62px;
+            img {
+                width: 150px;
+            }
+        }
+        &__bottom__text {
+            margin-right: 40px;
+            width: 233px;
+        }
+    }
+
+    .using__inner__last-card {
+        max-width: 290px;
+        height: 592px;
+        &__content {
+            margin: 0 auto;
+            margin-bottom: 50px;
+            &__title {
+                margin-top: 30px;
+            }
+            &__text {
+                max-width: 233px;
+            }
+            &__btn {
+                padding: 18px 20px;
+            }
+        }
+    }
+
+    .last-card-img img {
+        width: 190px;
+    }
+
+    .trust__inner {
+        flex-direction: column;
+        &__item {
+            margin-bottom: 51px;
+        }
+    }
+
+    .trust__sponsor {
+        grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
+        grid-gap: 20px;
+        &__item img {
+            width: 100px;
+        }
+    }
+
+    .languages {
+        padding-top: 70px;
+        &__title {
+            font-size: 26px;
+        }
+        &__text {
+            font-size: 16px;
+        }
+        &__wrap {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(7, 1fr);
+            grid-column-gap: 17px;
+            &__item__btn {
+                font-size: 14px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+        &__contribute {
+            flex-direction: column;
+            max-width: 90%;
+            max-height: 200px;
+            height: 141px;
+            padding-bottom: 20px;
+            margin: 0 auto;
+            margin-top: 70px;
+            &__text {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .footer__wrap {
+        grid-template-columns: repeat(2, 1fr);
+        &__item__img {
+            width: 29px;
+            height: 41px;
+            &-instagram {
+                width: 48px;
+                height: 23px;
+                margin-bottom: 8px;
+            }
+            &-vk {
+                height: 30px;
+                width: 28px;
+                margin-bottom: 3px;
+            }
+        }
+        
+    }
+
+    
+
+}
