@@ -78,6 +78,7 @@
     .trust__sponsor {
         grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
         grid-gap: 20px;
+        justify-items: center;
         &__item img {
             width: 100px;
         }
